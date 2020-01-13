@@ -1,5 +1,5 @@
 {
-  "name": "winston-encrypted-socket.io",
+  "name": "@OWNER/PACKAGE",
   "version": "1.0.0",
   "description": "An encrypted socket.io Winston logging transport",
   "main": "lib/winston-socketio.js",
