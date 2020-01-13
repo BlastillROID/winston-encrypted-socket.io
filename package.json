@@ -1,0 +1,45 @@
+{
+  "name": "winston-encrypted-socket.io",
+  "version": "1.0.0",
+  "description": "An encrypted socket.io Winston logging transport",
+  "main": "lib/winston-socketio.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "socket.io-client": "^2.2.0",
+    "socket.io-encrypt": "^0.1.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.0",
+    "socket.io": "^2.3.0",
+    "vows": "^0.8.2"
+  },
+  "scripts": {
+    "test": "vows --spec --isolate && mocha --exit ./mocha-test/winston-socket.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlastillROID/winston-encrypted-socket.io.git"
+  },
+  "keywords": [
+    "winston",
+    "socket.io",
+    "logger",
+    "encryption"
+  ],
+  "author": "Mounir Missaoui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlastillROID/winston-encrypted-socket.io/issues"
+  },
+  "homepage": "https://github.com/BlastillROID/winston-encrypted-socket.io#readme",
+  "engines": {
+    "node": ">= 8.0.0"
+  }
+}
