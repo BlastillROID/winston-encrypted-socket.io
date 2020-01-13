@@ -1,6 +1,6 @@
 #winston-socket.io
 
-![Build Status](https://travis-ci.org/jbass86/winston-socket.io.svg?branch=master) [![Dependency Status](https://david-dm.org/jbass86/winston-socket.io.svg)](https://david-dm.org/jbass86/winston-socket.io)
+![Build Status](https://travis-ci.com/BlastillROID/winston-encrypted-socket.io.svg?branch=master) [![Dependency Status](https://david-dm.org/BlastillROID/winston-encrypted-socket.io.svg)](https://github.com/BlastillROID/winston-encrypted-socket.io)
 
 
 A socket.io transport for winstonjs.  Gives you the ability to log directly to a socket.io server. 
